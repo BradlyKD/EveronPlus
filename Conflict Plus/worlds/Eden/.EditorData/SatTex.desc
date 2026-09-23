@@ -1,0 +1,7 @@
+SatGenDescClass {
+ FileName "C:/Users/olafg/Documents/My Games/ArmaReforgerWorkbench/sat.png"
+ sRGBOutput 1
+ Interpolation bilinear
+ RenderRoads 1
+ RoadsAA "8x"
+}
