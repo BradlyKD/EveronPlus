@@ -1,0 +1,1059 @@
+EffectDef {
+ Version 2
+ Emitters {
+  EmitterDef Light {
+   ShapeType Sphere
+   ShapeSize 3 3 3
+   MaxNum 3
+   BirthRate 1000
+   Offset 0 1.5 1.5
+   Angles 0 0 0
+   LocalTransform 0
+   Material "{77ED367ABC13B69F}Particles/_Materials/Fire/FireBurn_anim_01_Strong_Blurred.emat"
+   SizeMultiplier 0.01
+   RandomRotDir 0
+   RandomAngle 1
+   Velocity 0
+   AnimOnce 0
+   AnimFPS 80
+   LifetimeByAnim 0
+   RandomFrame 1
+   Lifetime 2.8
+   LifetimeRND 0
+   Color {
+    0 1 1 1 1 1 1 1
+   }
+   Alpha {
+    0 0 0.045 0.5 0.703 0.321 1 0
+   }
+   Size {
+    0 0.311 1 1
+   }
+   EmittingTime 2
+   Repeat 0
+   EnableLight 1
+   MaxLV 7
+   RelativeLV 1
+   LightColorMast {
+    0 1 0.569 0.155 1 0.287 0.141 0.087
+   }
+   LightIntensityMast {
+    0 1 1 0
+   }
+   LightIntensityResponse 20
+  }
+  EmitterDef Light_punch {
+   ShapeType Sphere
+   ShapeSize 3 3 3
+   MaxNum 3
+   BirthRate 1000
+   Offset 0 1.5 1.5
+   Angles 0 0 0
+   LocalTransform 0
+   Material "{77ED367ABC13B69F}Particles/_Materials/Fire/FireBurn_anim_01_Strong_Blurred.emat"
+   SizeMultiplier 0.01
+   RandomRotDir 0
+   RandomAngle 1
+   Velocity 0
+   AnimOnce 0
+   AnimFPS 80
+   LifetimeByAnim 0
+   RandomFrame 1
+   Lifetime 0.5
+   LifetimeRND 0
+   Color {
+    0 1 1 1 1 1 1 1
+   }
+   Alpha {
+    0 0 0.045 0.5 0.703 0.321 1 0
+   }
+   Size {
+    0 0.311 1 1
+   }
+   EmittingTime 0.5
+   Repeat 0
+   EnableLight 1
+   MaxLV 5
+   RelativeLV 1
+   LightColorMast {
+    0 1 0.802 0.617 1 0.287 0.141 0.087
+   }
+   LightIntensityMast {
+    0 1 0.099 1 0.215 0
+   }
+   LightIntensityResponse 20
+  }
+  EmitterDef fire_cloud {
+   ShapeType Box
+   ShapeSize 2 1 2
+   ConeAngle 360 80 180
+   ConeAngleMinDist 60
+   ConeAngleRndRange 60
+   MaxNum 14
+   BirthRate 1013.8
+   BirthRateRND 7.9
+   BirthRateVel 0
+   Offset 0 1.5 1.5
+   Angles 0 0 0
+   LocalTransform 0
+   Material "{BC74286365C03923}Particles/_Materials/Fire/Explosion_05.emat"
+   StreakFullUV 0
+   SizeMultiplier 473.2
+   SizeRND 5
+   CenterY 0
+   RotMultiplier 2
+   RandomRotDir 1
+   VelAngle 0
+   RandomAngle 1
+   FlipU Random
+   Velocity 64.6
+   VelocityRND 7.7
+   VelAffect 2.24
+   AirResistance 3.05
+   AirResistanceRND 0
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Spring 0
+   AnimOnce 1
+   AnimFPS 25
+   LifetimeByAnim 1
+   RandomFrame 0
+   Lifetime 10.5
+   LifetimeRND 2.9
+   Color {
+    0 1 0.53 0.429 1 0.133 0.133 0.133
+   }
+   Alpha {
+    0 0 0.116 0.289 0.441 0.319 1 0
+   }
+   RotationSpeed {
+    0 1 1 1
+   }
+   Size {
+    0 0.504 1 1
+   }
+   EmittingTime 0.1
+   Repeat 0
+   ColorMast {
+    0 1 1 1 1 1 1 1
+   }
+   AlphaMast {
+    0 1 0.305 1 1 0
+   }
+   RotationSpeedMast {
+    0 1 1 1
+   }
+   SizeMast {
+    0 1 1 1
+   }
+   BRateMast {
+    0 1 1 1
+   }
+   AirResistanceMast {
+    0 1 1 1
+   }
+   VelocityMast {
+    0 1 1 1
+   }
+   EnableLight 1
+   MaxLV 5.882
+  }
+  EmitterDef sparks {
+   ConeAngle 360 60 180
+   MaxNum 60
+   BirthRate 10000
+   BirthRateRND 2
+   Offset 0 1 1
+   LodMin 0
+   LodMax 2
+   Material "{2DF4058A4066E031}Particles/_Materials/Fire/Base_Sparks_07.emat"
+   StretchMultiplier 1.015
+   SizeMultiplier 0.1
+   SizeRND 0
+   ScaleX 0.25
+   ScaleY 0.5
+   CenterY 0
+   BillboardingType Full
+   VelAngle 1
+   RandomAngle 0
+   Velocity 111.8
+   VelocityRND 32
+   AirResistance 2
+   AirResistanceRND 8.25
+   GravityMultiply 0.3
+   GravityMultiplyRND 0
+   EnableCollisions 1
+   RandomFrame 1
+   Lifetime 9
+   LifetimeRND 3.4
+   Color {
+    0 1 1 1 1 1 1 1
+   }
+   Alpha {
+    0 1 1 0
+   }
+   EmittingTime 0.1
+   Repeat 0
+  }
+  EmitterDef debris_fast {
+   ShapeType Box
+   ShapeSize 1 1 1
+   ConeAngle 360 80 180
+   MaxNum 120
+   BirthRate 1000
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0 1 1
+   Angles 0 0 0
+   LodMin 0
+   LodMax 1
+   Material "{224F6908DA2DEF71}Particles/_Materials/Solid/Metal_debris_2x2.emat"
+   StretchMultiplier 1
+   SizeMultiplier 0
+   SizeRND 0.25
+   ScaleX 0.5
+   RotMultiplier 500
+   RandomRotDir 1
+   VelAngle 0
+   RandomAngle 0
+   FlipU Random
+   Velocity 82.3
+   VelocityRND 20
+   VelAffect 2
+   AirResistance 2
+   AirResistanceRND 1.5
+   GravityMultiply 2
+   GravityMultiplyRND 1
+   Spring 0
+   AnimOnce 0
+   AnimFPS 0
+   LifetimeByAnim 0
+   RandomFrame 1
+   Lifetime 1
+   LifetimeRND 2
+   LifetimeShortening 0
+   Color {
+    0 0.1 0.1 0.1 1 0.1 0.1 0.1
+   }
+   Alpha {
+    0 1 0.792 1 1 0
+   }
+   RotationSpeed {
+    0 1 1 1
+   }
+   Size {
+    0 1
+   }
+   EmittingTime 0.2
+   Repeat 0
+   ColorMast {
+    0 1 1 1
+   }
+   AlphaMast {
+    0 1
+   }
+   RotationSpeedMast {
+    0 1
+   }
+   SizeMast {
+    0 1 1 1
+   }
+   BRateMast {
+    0 1
+   }
+  }
+  EmitterDef Smoke_Big {
+   ShapeSize 5 0 5
+   ConeAngle 360 0 180
+   ConeAngleMinDist 60
+   ConeAngleRndRange 60
+   MaxNum 5
+   BirthRate 1000
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0 1 1
+   LodMin 0
+   LodMax 2
+   Material "{029D33C344E15DFB}Particles/_Materials/Gas/Smoke_loop_01.emat"
+   SizeMultiplier 221.2
+   SizeRND 15
+   RotMultiplier 15
+   RotRND 4.8
+   RandomRotDir 1
+   VelAngle 0
+   RandomAngle 1
+   FlipU Random
+   Velocity 38.3
+   VelocityRND 15
+   VelAffect 0.5
+   AirResistanceRND 3
+   WindInfluence 0
+   GravityMultiply 0.5
+   GravityMultiplyRND -1
+   AnimFPS 80
+   LifetimeByAnim 0
+   RandomFrame 0
+   Lifetime 7.6
+   LifetimeRND 2
+   Color {
+    0 0.159 0.159 0.159 1 0.159 0.159 0.159
+   }
+   Alpha {
+    0 0 0.023 1 0.695 0.303 1 0
+   }
+   RotationSpeed {
+    0 1 1 1
+   }
+   Size {
+    0 0.821 1 1
+   }
+   EmittingTime 0.4
+   Repeat 0
+   ColorMast {
+    0 1 1 1 0.431 1 1 1 1 1 1 1
+   }
+   AlphaMast {
+    0 1 0.15 1 0.236 1 0.591 1 1 0
+   }
+   RotationSpeedMast {
+    0 1 1 1
+   }
+   SizeMast {
+    0 1 1 1
+   }
+   BRateMast {
+    0 0 0.17 0 0.704 1 1 1
+   }
+   VelocityMast {
+    0 1 0.15 1 0.324 1 0.65 1 1 1
+   }
+   EnableLight 1
+  }
+  EmitterDef Smoke_stripes {
+   ShapeType Box
+   ShapeSize 0.5 0.5 0.5
+   ConeAngle 360 40 140
+   ConeAngleMinDist 60
+   ConeAngleRndRange 60
+   MaxNum 2
+   BirthRate 1000
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0 1 1
+   LodMin 0
+   LodMax 2
+   Material "{FC9AEB448DEBAE4A}Particles/_Materials/Gas/Smoke_Explosion_01.emat"
+   StretchMultiplier 0
+   SizeMultiplier 100.5
+   SizeRND 6
+   CenterY -0.76
+   RotMultiplier 15
+   RandomRotDir 1
+   VelAngle 1
+   RandomAngle 0
+   FlipU Random
+   Velocity 1
+   VelocityRND 0
+   VelAffect 0.5
+   AirResistance 5
+   AirResistanceRND 3
+   WindInfluence 0
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   AnimOnce 1
+   AnimFPS 60
+   LifetimeByAnim 1
+   RandomFrame 0
+   Lifetime 2
+   LifetimeRND 2
+   Alpha {
+    0 0 0.194 0.874 0.695 0.303 1 0
+   }
+   RotationSpeed {
+    0 1 1 1
+   }
+   Size {
+    0 0.289 0.141 0.659 0.27 0.822 0.467 0.896 1 1
+   }
+   EmittingTime 0.4
+   Repeat 0
+   ColorMast {
+    0 1 1 1 0.431 1 1 1 1 1 1 1
+   }
+   AlphaMast {
+    0 1 0.15 1 0.236 1 0.591 1 1 0
+   }
+   RotationSpeedMast {
+    0 1 1 1
+   }
+   SizeMast {
+    0 1 1 1
+   }
+   BRateMast {
+    0 0 0.207 0 0.449 1 1 1
+   }
+   VelocityMast {
+    0 1 0.15 1 0.324 1 0.65 1 1 1
+   }
+  }
+  EmitterDef Smoke_stripes_slower {
+   ShapeType Box
+   ShapeSize 0.5 0.5 0.5
+   ConeAngle 360 40 140
+   ConeAngleMinDist 60
+   ConeAngleRndRange 60
+   MaxNum 2
+   BirthRate 1000
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0 1 1
+   LodMin 0
+   LodMax 2
+   Material "{FC9AEB448DEBAE4A}Particles/_Materials/Gas/Smoke_Explosion_01.emat"
+   StretchMultiplier 0
+   SizeMultiplier 91.5
+   SizeRND 6
+   CenterY -0.76
+   RotMultiplier 15
+   RandomRotDir 1
+   VelAngle 1
+   RandomAngle 0
+   FlipU Random
+   Velocity 1
+   VelocityRND 0
+   VelAffect 0.5
+   AirResistance 5
+   AirResistanceRND 3
+   WindInfluence 0
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   AnimOnce 1
+   AnimFPS 40
+   LifetimeByAnim 1
+   RandomFrame 0
+   Lifetime 2
+   LifetimeRND 2
+   Alpha {
+    0 0 0.194 0.874 0.695 0.303 1 0
+   }
+   RotationSpeed {
+    0 1 1 1
+   }
+   Size {
+    0 0.289 0.141 0.659 0.27 0.822 0.467 0.896 1 1
+   }
+   EmittingTime 0.4
+   Repeat 0
+   ColorMast {
+    0 1 1 1 0.431 1 1 1 1 1 1 1
+   }
+   AlphaMast {
+    0 1 0.15 1 0.236 1 0.591 1 1 0
+   }
+   RotationSpeedMast {
+    0 1 1 1
+   }
+   SizeMast {
+    0 1 1 1
+   }
+   BRateMast {
+    0 0 0.359 0 0.474 1 1 1
+   }
+   VelocityMast {
+    0 1 0.15 1 0.324 1 0.65 1 1 1
+   }
+  }
+  EmitterDef smoke_fast_down {
+   ShapeType Sphere
+   ShapeSize 2 2 2
+   ConeAngle 360 130 180
+   ConeAngleMinDist 60
+   ConeAngleRndRange 60
+   MaxNum 20
+   BirthRate 2000
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0 0 1
+   Material "{029D33C344E15DFB}Particles/_Materials/Gas/Smoke_loop_01.emat"
+   StretchMultiplier 0
+   SizeMultiplier 103.8
+   SizeRND 2
+   RotMultiplier 20
+   RandomRotDir 1
+   VelAngle 0
+   RandomAngle 1
+   Velocity 20
+   VelocityRND 20
+   VelAffect 0
+   AirResistance 5
+   AirResistanceRND 3
+   WindInfluence 0.1
+   ParentVelRelToAir 0.8
+   GravityMultiply 0.1
+   GravityMultiplyRND 0.1
+   Spring 0
+   AnimOnce 0
+   AnimFPS 60
+   LifetimeByAnim 0
+   RandomFrame 0
+   Lifetime 3
+   LifetimeRND 1
+   Color {
+    0 0.381 0.381 0.381 1 0.381 0.381 0.381
+   }
+   Alpha {
+    0 0 0.303 0.781 1 0
+   }
+   RotationSpeed {
+    0 1 0.204 0.319 1 0
+   }
+   Size {
+    0 0.466 1 1
+   }
+   EmittingTime 0.1
+   Repeat 0
+   ColorMast {
+    0 1 1 1 0.431 1 1 1 1 1 1 1
+   }
+   AlphaMast {
+    0 1 0.15 1 0.236 1 0.591 1 1 0
+   }
+   RotationSpeedMast {
+    0 1 1 1
+   }
+   SizeMast {
+    0 1 1 1
+   }
+   BRateMast {
+    0 1 1 1
+   }
+   VelocityMast {
+    0 1 0.15 1 0.324 1 0.65 1 1 1
+   }
+  }
+  EmitterDef smoke_fast_down_after {
+   ShapeType Box
+   ShapeSize 10 0 10
+   ConeAngle 360 170 180
+   ConeAngleMinDist 60
+   ConeAngleRndRange 60
+   MaxNum 20
+   BirthRate 2000
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0 0 1
+   Material "{029D33C344E15DFB}Particles/_Materials/Gas/Smoke_loop_01.emat"
+   StretchMultiplier 0
+   SizeMultiplier 113.3
+   SizeRND 2
+   RotMultiplier 20
+   RandomRotDir 1
+   VelAngle 0
+   RandomAngle 1
+   Velocity 5
+   VelocityRND 5
+   VelAffect 0
+   AirResistance 5
+   AirResistanceRND 3
+   WindInfluence 0.1
+   ParentVelRelToAir 0.8
+   GravityMultiply 0.1
+   GravityMultiplyRND 0.1
+   Spring 0
+   AnimOnce 0
+   AnimFPS 60
+   LifetimeByAnim 0
+   RandomFrame 0
+   Lifetime 3
+   LifetimeRND 1
+   Color {
+    0 0.381 0.381 0.381 1 0.381 0.381 0.381
+   }
+   Alpha {
+    0 0 0.066 0.685 1 0
+   }
+   RotationSpeed {
+    0 1 0.204 0.319 1 0
+   }
+   Size {
+    0 0.466 1 1
+   }
+   EmittingTime 0.2
+   Repeat 0
+   ColorMast {
+    0 1 1 1 0.431 1 1 1 1 1 1 1
+   }
+   AlphaMast {
+    0 1 0.15 1 0.236 1 0.591 1 1 0
+   }
+   RotationSpeedMast {
+    0 1 1 1
+   }
+   SizeMast {
+    0 1 1 1
+   }
+   VelocityMast {
+    0 1 0.15 1 0.324 1 0.65 1 1 1
+   }
+  }
+  EmitterDef explosion_hot_A {
+   ShapeType Sphere
+   ShapeSize 5 5 5
+   ConeAngle 360 0 100
+   ConeAngleMinDist 60
+   ConeAngleRndRange 60
+   MaxNum 7
+   BirthRate 2000
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0 0 1
+   Material "{6E033C070B32B17C}Particles/_Materials/Fire/Explosion_Base_03.emat"
+   StretchMultiplier 0
+   SizeMultiplier 266.9
+   SizeRND 2
+   RotMultiplier 15
+   RandomRotDir 1
+   VelAngle 0
+   RandomAngle 1
+   FlipU Random
+   Velocity 36.6
+   VelocityRND 15
+   VelAffect 0
+   AirResistance 5
+   AirResistanceRND 5
+   WindInfluence 0.1
+   ParentVelRelToAir 0.8
+   GravityMultiply 0.1
+   GravityMultiplyRND 0.1
+   Spring 0
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   RandomFrame 0
+   Lifetime 4.1
+   LifetimeRND 1.7
+   LifetimeVelFactor 1.412
+   Color {
+    0 0.381 0.381 0.381 1 0.381 0.381 0.381
+   }
+   Alpha {
+    0 0 0.165 0.753 0.447 0.123 1 0
+   }
+   Size {
+    0.002 0.5 1 1
+   }
+   EmittingTime 0.1
+   Repeat 0
+   ColorMast {
+    0 1 1 1 0.431 1 1 1 1 1 1 1
+   }
+   AlphaMast {
+    0 1 0.15 1 0.236 1 0.591 1 1 0
+   }
+   RotationSpeedMast {
+    0 1 1 1
+   }
+   SizeMast {
+    0 1 1 1
+   }
+   BRateMast {
+    0 0 1 1
+   }
+   VelocityMast {
+    0 1 0.15 1 0.324 1 0.65 1 1 1
+   }
+   MaxLV 10
+   LightColorMast {
+    0 1 0.569 0.155 1 0.084 0.043 0.026
+   }
+   LightIntensityMast {
+    0 1 1 0
+   }
+   LightIntensityResponse 0
+  }
+  EmitterDef explosion_hot_B {
+   ShapeType Sphere
+   ShapeSize 5 5 5
+   ConeAngle 360 0 100
+   ConeAngleMinDist 60
+   ConeAngleRndRange 60
+   MaxNum 7
+   BirthRate 2000
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0 0 1
+   Material "{27DB291879F4C516}Particles/_Materials/Fire/Explosion_Base_04.emat"
+   StretchMultiplier 0
+   SizeMultiplier 216.2
+   SizeRND 7.3
+   RotMultiplier 15
+   RandomRotDir 1
+   VelAngle 0
+   RandomAngle 1
+   FlipU Random
+   Velocity 15
+   VelocityRND 15
+   VelAffect 0
+   AirResistance 5
+   AirResistanceRND 5
+   WindInfluence 0.1
+   ParentVelRelToAir 0.8
+   GravityMultiply 0.1
+   GravityMultiplyRND 0.1
+   Spring 0
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   RandomFrame 0
+   Lifetime 3.6
+   LifetimeRND 1
+   Color {
+    0 0.381 0.381 0.381 1 0.381 0.381 0.381
+   }
+   Alpha {
+    0 0 0.165 0.753 0.447 0.123 1 0
+   }
+   Size {
+    0.002 0.5 1 1
+   }
+   EmittingTime 0.1
+   Repeat 0
+   ColorMast {
+    0 1 1 1 0.431 1 1 1 1 1 1 1
+   }
+   AlphaMast {
+    0 1 0.15 1 0.236 1 0.591 1 1 0
+   }
+   RotationSpeedMast {
+    0 1 1 1
+   }
+   SizeMast {
+    0 1 1 1
+   }
+   BRateMast {
+    0 0 1 1
+   }
+   VelocityMast {
+    0 1 0.15 1 0.324 1 0.65 1 1 1
+   }
+  }
+  EmitterDef Pillars {
+   ConeAngle 360 0 100
+   BirthRate 1000
+   Material "{84C6C29E227A50FB}Particles/_Materials/Gas/Smoke_Base_Pillar_01.emat"
+   SizeMultiplier 32.3
+   SizeRND 4
+   ScaleX 0.3
+   ScaleY 1
+   VelAngle 1
+   Velocity 20
+   VelocityRND 15
+   AirResistance 2
+   AirResistanceRND 1
+   Lifetime 0.6
+   LifetimeRND 0.4
+   Color {
+    0 0.037 0.037 0.037 1 0 0 0
+   }
+   Alpha {
+    0 0 0.228 1 0.555 0.301 1 0
+   }
+   Size {
+    0 0.534 1 1
+   }
+   EmittingTime 0.1
+   Repeat 0
+  }
+  EmitterDef Prefab_Debris_Headlght {
+   ShapeType Box
+   ShapeSize 2 1 0.5
+   ConeAngle 360 30 110
+   MaxNum 2
+   BirthRate 10
+   BirthRateRND 20
+   BirthRateVel 0
+   Offset 0 1.5 3.5
+   Angles 0 0 0
+   LodMin 0
+   LodMax 1
+   ParticleType Prefab
+   Material "{224F6908DA2DEF71}Particles/_Materials/Solid/Metal_debris_2x2.emat"
+   Prefab "{F27E066048026CF0}Prefabs/Particles/Debris/Metal/Vehicle/Dbr_Headlight.et"
+   StretchMultiplier 1
+   SizeMultiplier 1.7
+   SizeRND 0
+   ScaleX 0.5
+   RotMultiplier 500
+   RotMultiplier_3D 180 180 180
+   RotRND_3D 90 90 90
+   RandomRotDir 1
+   VelAngle 0
+   RandomAngle 0
+   FlipU Random
+   Velocity 15
+   VelocityRND 20
+   AirResistance 1
+   AirResistanceRND 1.5
+   GravityMultiply 2
+   GravityMultiplyRND 1
+   EnableCollisions 1
+   CollisionDistThresh 4
+   NormalRestitution 0.1
+   TagentialRestitution 1
+   RotDampBySliding 0.95
+   Spring 0
+   AnimOnce 0
+   AnimFPS 0
+   LifetimeByAnim 0
+   RandomFrame 1
+   Lifetime 3
+   LifetimeRND 0
+   LifetimeShortening 0
+   Color {
+    0 0.1 0.1 0.1 1 0.1 0.1 0.1
+   }
+   Alpha {
+    0 1 0.792 1 1 0
+   }
+   Size {
+    0 1 0.6 1 0.803 0
+   }
+   EmittingTime 0.101
+   Repeat 0
+   ColorMast {
+    0 1 1 1
+   }
+   AlphaMast {
+    0 1
+   }
+   RotationSpeedMast {
+    0 1
+   }
+   SizeMast {
+    0 1 1 1
+   }
+   BRateMast {
+    0 1
+   }
+  }
+  EmitterDef Prefab_Debris_Brake {
+   ShapeType Box
+   ShapeSize 2 0.5 7
+   ConeAngle 360 150 200
+   MaxNum 6
+   BirthRate 20
+   BirthRateRND 40
+   BirthRateVel 0
+   Offset 0 1 0
+   Angles 0 0 0
+   LodMin 0
+   LodMax 1
+   ParticleType Prefab
+   Material "{224F6908DA2DEF71}Particles/_Materials/Solid/Metal_debris_2x2.emat"
+   Prefab "{B6C124563066625A}Prefabs/Particles/Debris/Metal/Vehicle/Dbr_Brake_Drum.et"
+   StretchMultiplier 1
+   SizeMultiplier 1.6
+   SizeRND 0
+   ScaleX 0.5
+   RotMultiplier 500
+   RotMultiplier_3D 150 150 150
+   RotRND_3D 50 50 50
+   RandomRotDir 1
+   VelAngle 0
+   RandomAngle 0
+   FlipU Random
+   Velocity 13
+   VelocityRND 17
+   AirResistance 0.3
+   AirResistanceRND 0.5
+   GravityMultiply 2
+   GravityMultiplyRND 1
+   EnableCollisions 1
+   CollisionDistThresh 4
+   NormalRestitution 0.1
+   TagentialRestitution 1
+   RotDampBySliding 0.95
+   Spring 0
+   AnimOnce 0
+   AnimFPS 0
+   LifetimeByAnim 0
+   RandomFrame 1
+   Lifetime 3
+   LifetimeRND 0
+   LifetimeShortening 0
+   Color {
+    0 0.1 0.1 0.1 1 0.1 0.1 0.1
+   }
+   Alpha {
+    0 1 0.792 1 1 0
+   }
+   Size {
+    0 1 0.59 1 0.797 0
+   }
+   EmittingTime 0.101
+   Repeat 0
+   ColorMast {
+    0 1 1 1
+   }
+   AlphaMast {
+    0 1
+   }
+   RotationSpeedMast {
+    0 1
+   }
+   SizeMast {
+    0 1 1 1
+   }
+   BRateMast {
+    0 1
+   }
+  }
+  EmitterDef Prefab_Debris_Metal_Sheets {
+   ShapeType Box
+   ShapeSize 2 1 7
+   ConeAngle 360 0 100
+   MaxNum 5
+   BirthRate 10
+   BirthRateRND 100
+   BirthRateVel 0
+   Offset 0 1.5 0
+   Angles 0 0 0
+   LodMin 0
+   LodMax 1
+   ParticleType Prefab
+   Material "{224F6908DA2DEF71}Particles/_Materials/Solid/Metal_debris_2x2.emat"
+   Prefab "{E7680D95FEEEDA7F}Prefabs/Particles/Debris/Metal/Vehicle/Dbr_Metal_Piece.et"
+   StretchMultiplier 1
+   SizeMultiplier 0.5
+   SizeRND 0.8
+   ScaleX 0.5
+   RotMultiplier 500
+   RotMultiplier_3D 120 120 120
+   RotRND_3D 90 150 130
+   RandomRotDir 1
+   VelAngle 0
+   RandomAngle 0
+   FlipU Random
+   Velocity 15
+   VelocityRND 20
+   AirResistance 0.8
+   AirResistanceRND 1
+   GravityMultiply 2
+   GravityMultiplyRND 1
+   EnableCollisions 1
+   CollisionDistThresh 4
+   NormalRestitution 0.1
+   TagentialRestitution 0.8
+   RotDampBySliding 0.95
+   Spring 0
+   AnimOnce 0
+   AnimFPS 0
+   LifetimeByAnim 0
+   RandomFrame 1
+   Lifetime 3.5
+   LifetimeRND 0
+   LifetimeShortening 0
+   Color {
+    0 0.1 0.1 0.1 1 0.1 0.1 0.1
+   }
+   Alpha {
+    0 1 0.792 1 1 0
+   }
+   Size {
+    0 1 0.523 1 0.745 0
+   }
+   EmittingTime 0.101
+   Repeat 0
+   ColorMast {
+    0 1 1 1
+   }
+   AlphaMast {
+    0 1
+   }
+   RotationSpeedMast {
+    0 1
+   }
+   SizeMast {
+    0 1 1 1
+   }
+   BRateMast {
+    0 1
+   }
+  }
+  EmitterDef Prefab_Debris_spring {
+   ShapeType Box
+   ShapeSize 2 0.5 7
+   ConeAngle 360 150 200
+   MaxNum 6
+   BirthRate 20
+   BirthRateRND 40
+   BirthRateVel 0
+   Offset 0 1 0
+   Angles 0 0 0
+   LodMin 0
+   LodMax 1
+   ParticleType Prefab
+   Material "{224F6908DA2DEF71}Particles/_Materials/Solid/Metal_debris_2x2.emat"
+   Prefab "{DB242491D3B535F4}Prefabs/Particles/Debris/Metal/Vehicle/Dbr_Spring.et"
+   StretchMultiplier 1
+   SizeMultiplier 1.5
+   SizeRND 0
+   ScaleX 0.5
+   RotMultiplier 500
+   RotMultiplier_3D 120 120 120
+   RotRND_3D 50 50 50
+   RandomRotDir 1
+   VelAngle 0
+   RandomAngle 0
+   FlipU Random
+   Velocity 15
+   VelocityRND 20
+   AirResistance 0.5
+   AirResistanceRND 0.8
+   GravityMultiply 2
+   GravityMultiplyRND 1
+   EnableCollisions 1
+   CollisionDistThresh 4
+   NormalRestitution 0.1
+   TagentialRestitution 0.8
+   RotDampBySliding 0.95
+   Spring 0
+   AnimOnce 0
+   AnimFPS 0
+   LifetimeByAnim 0
+   RandomFrame 1
+   Lifetime 3
+   LifetimeRND 0
+   LifetimeShortening 0
+   Color {
+    0 0.1 0.1 0.1 1 0.1 0.1 0.1
+   }
+   Alpha {
+    0 1 0.792 1 1 0
+   }
+   Size {
+    0 1 0.588 1 0.803 0
+   }
+   EmittingTime 0.101
+   Repeat 0
+   ColorMast {
+    0 1 1 1
+   }
+   AlphaMast {
+    0 1
+   }
+   RotationSpeedMast {
+    0 1
+   }
+   SizeMast {
+    0 1 1 1
+   }
+   BRateMast {
+    0 1
+   }
+  }
+ }
+ LightOffset 0 3 0
+ LightClipEV -16
+ LightRadius 30
+}

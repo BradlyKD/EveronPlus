@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{ADA2D7318C618EE7}root_su_main.fbx"
+ Configurations {
+  FBXAnimResourceClass PC {
+  }
+  FBXAnimResourceClass XBOX_ONE : PC {
+  }
+  FBXAnimResourceClass XBOX_SERIES : PC {
+  }
+  FBXAnimResourceClass PS4 : PC {
+  }
+  FBXAnimResourceClass PS5 : PC {
+  }
+  FBXAnimResourceClass HEADLESS : PC {
+  }
+ }
+}
